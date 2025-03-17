@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ThreeDCardDemo } from "./components/3dCard";
 
 export default function Home() {
   return (
@@ -24,6 +25,14 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+        <div className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          Hello
+        </div>
+
+        <div className="">
+          <ThreeDCardDemo />
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
