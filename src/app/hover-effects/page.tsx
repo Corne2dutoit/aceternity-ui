@@ -20,6 +20,16 @@ export default function Home() {
       </main> */}
 
       <BentoGridDemo />
+      <div className="max-w-4xl mx-auto pt-10">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 md:auto-rows-[18rem] md:grid-cols-3">
+          <div className=" col-span-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+            Hello
+          </div>
+          <div className=" col-span-2 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+            Hello
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
